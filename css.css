@@ -1,0 +1,9 @@
+.slide_wrap{width:100%;min-height: 200px;height:auto;overflow: hidden;display: block;position: relative;}
+.slide{height: 100%;display: flex;top:0;position: absolute;}
+.shifting{transition:all 0.3s;}
+.slide li{display: block;background:#ddd;text-align: center;height: 100%;flex-shrink: 0;}
+.slide li:nth-child(2){background-color: #ccc;}
+.slide li:nth-child(3){background-color: #eee;}
+.slide li.first{background-color:darksalmon;}
+.slide li.last{background-color:darkcyan;}
+.slide li.hide{display: none;}
